@@ -5,7 +5,7 @@ Automated reconnaissance framework for bug bounty hunting that integrates multip
 ---
 
 
-## ⚙️ Features
+## Features
 
 - Subdomain enumeration using multiple sources
 - Live host detection (HTTP probing)
@@ -20,7 +20,7 @@ Automated reconnaissance framework for bug bounty hunting that integrates multip
 
 ---
 
-## 🧰 Tools Used
+## Tools Used
 
 - subfinder  
 - httpx  
@@ -36,13 +36,13 @@ Automated reconnaissance framework for bug bounty hunting that integrates multip
 
 ---
 
-## 📋 Prerequisites
+##  Prerequisites
 
 Before installing the tool, make sure you have the following requirements installed on your system:
 
 ### System Dependencies
 
-```bash id="7kq2ax"
+```bash 
 sudo apt update && sudo apt install -y git golang wget ffuf nuclei dirsearch
 go install github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
 go install github.com/projectdiscovery/httpx/cmd/httpx@latest
@@ -56,7 +56,7 @@ go install github.com/s0md3v/Arjun@latest
 ---
 
 
-## 📦 Installation
+##  Installation
 
 Clone the repository:
 ```bash
@@ -67,7 +67,7 @@ cd Gaza-Recon
 
 ---
 
-## 🚀 Usage
+##  Usage
 
 Make script executable:
 ```bash
@@ -76,7 +76,7 @@ Run: ./Recon.sh
 ```
 ---
 
-## 📥 Input Formats
+##  Input Formats
 Single domain: example.com
 
 Wildcard: *.example.com
@@ -85,7 +85,7 @@ Domain list: domains.txt
 
 ---
 
-## 📁 Output Structure
+##  Output Structure
 
 All results will be stored in a structured folder per target:
 
