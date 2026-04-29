@@ -71,8 +71,8 @@ cd Gaza-Recon
 
 Make script executable:
 ```bash
-chmod +x recon.sh
-Run: ./recon.sh
+chmod +x Recon.sh
+Run: ./Recon.sh
 ```
 ---
 
